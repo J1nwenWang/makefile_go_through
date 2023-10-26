@@ -1,0 +1,1 @@
+# makefile_go_through
