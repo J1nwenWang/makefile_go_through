@@ -1,7 +1,7 @@
 
   # Computer System in Class Exercise
 
-The exercise is prefered to work on Seed VM.
+It's recommended to complete the exercise on the Seed VM.
 
 **Step 1:**
 Refer to the makefile tutorial in the provided [link](https://makefiletutorial.com), starting from the beginning and continuing up to the 'More quick examples' section. This will help you understand how to write a makefile to compile source code into binary.
