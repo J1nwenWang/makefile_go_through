@@ -12,8 +12,11 @@ Please update the `Makefile` in the repository to compile all source files into 
 
 *Hint:*
 To compile the source code `mk.c` into a binary named `mk.bin`, use the command:
+
 `$ gcc -Wall -O0 -o mk.bin mk.c`
+
 To decompile the binary `mk.bin` into its assembly representation `mk.dis`, use the command:
+
 `$ objdump -D ./mk.bin > ./mk.dis`
 
   
@@ -30,8 +33,11 @@ The repository contains the following source code files:
 
 **Step 3:**
 Execute the following commands in the source code directory to generate binaries and assemblies.
+
 `$ make`
+
 If you want to clean all the generated binary and assemblies, using following command.
+
 `$ make clean`
 
 Analyze the differences between the disassembled outputs of each binary. Focus on the code section within the assembly (search `<main>` and `<callee>` in assembly), especially when there are code changes between source files. When there are variable modifications in the source code, pay close attention to where the data is allocated or stored (search global_val in assembly, local variable is allocated on stack, read the code in `<main>` to find out where the number 433 (0x1b1 in hex) is stored).
